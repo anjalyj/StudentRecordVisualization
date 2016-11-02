@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Data</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="student_data"></div>
+	<div class="sort_by">Sort by:
+		<button type="button" id="name" onclick="sortByName()">Name</button>
+		<button type="button" id="subject" onclick="sortBySubject()">Subject</button>
+		<button type="button" id="score" onclick="sortByScore()">Score</button>
+	</div>
+	<div class="legend">Subjects: </div>
+	<script type="text/javascript" src="javascript/d3.v4.min.js"></script>
+	<script type="text/javascript" src="javascript/lodash.min.js"></script>
+	<script type="text/javascript" src="javascript/student.js"></script>
+</body>
+</html>
